@@ -325,7 +325,7 @@ font-size: 27px;
    
      #footer-link > a {
        margin: 0 20px 30px 0;
-       display: block;
+    
        background-image: url("images/arrow.png");
        background-repeat: no-repeat;
        background-position: right top;
@@ -501,6 +501,10 @@ font-size: 27px;
       display: none;
   }
 }
+#nav-sp,
+#menu-sp {
+  display: none;
+}
 /*====================
 18  スマートフォン用のスタイル
 19 =====================*/
@@ -531,7 +535,7 @@ font-size: 27px;
        display: none;
        z-index: 100;
      }
-     }
+     
      /* ×ボタン */
    #close {
        position: absolute;
@@ -563,10 +567,7 @@ font-size: 27px;
         margin-right: 30px;
       }
       /* スマホ用ナビを非表示 */
-  #nav-sp,
-  #menu-sp {
-    display: none;
-  }
+
    /* メインビジュアル */
       #main-visual {
        position: relative;
@@ -785,6 +786,7 @@ font-size: 27px;
        font-size: 12px;
        margin-top: 30px;
      }
+    }
      /* mission.html用スタイル */
  /* ミッションのメインビジュアル */
  .mission-main-inner {
@@ -887,7 +889,7 @@ font-size: 27px;
 3=====================*/
 @media screen and (max-width: 767px) {
     /* ここにMISSIONページのスマートフォン用のCSSを記述する */
-  }
+  
   /* mission.html用スタイル */
    /* ミッションのメインビジュアル */
    #mission-main {
@@ -1110,3 +1112,4 @@ font-size: 27px;
        order: 2;
        width: 100%;
      }
+    }
